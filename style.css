@@ -1,13 +1,14 @@
 #meme-image-container {
   position: relative;
   display: inline-block;
-  width: 600px;
-  height: 801px;
+  width: 817px;
+  height: 501px;
   background-color: white;
 }
 
 #meme-image {
   width: 100%;
+  height: 100%;
 }
 
 .borda-padrao {
@@ -16,7 +17,8 @@
 
 #meme-text {
   position: absolute;
-  left: 5px;
+  text-align: center;
+  left: 30px;
   font-size: 30px;
   top: 5px;
   color: white;
