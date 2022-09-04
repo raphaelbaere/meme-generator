@@ -1,13 +1,13 @@
 #meme-image-container {
   position: relative;
   display: inline-block;
-  width: 501px;
-  height: 500px;
+  width: 600px;
+  height: 801px;
   background-color: white;
 }
 
 #meme-image {
-  width: 500px;
+  width: 100%;
 }
 
 .borda-padrao {
@@ -15,30 +15,30 @@
 }
 
 #meme-text {
-    position: absolute;
-    left: 5px;
-    font-size: 30px;
-    top: 5px;
-    color: white;
-    text-shadow: black 5px 5px 5px;
+  position: absolute;
+  left: 5px;
+  font-size: 30px;
+  top: 5px;
+  color: white;
+  text-shadow: black 5px 5px 5px;
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
   color: white;
 }
 
 #water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
   color: white;
 }
 
 #earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
   color: white;
 }
 
-#meme-1, #meme-2, #meme-3, #meme-4 {
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
   width: 200px;
 }
 
