@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input id="text-input" maxlength="60" type="text" name="memesearch" placeholder="Digite o texto do meme aqui!">
+    <label for="meme-insert">Selecione a imagem do meme!</label>
+    <input id="meme-insert" type="file">
+    <main>
+        <section>
+            <div id="meme-image-container" class="borda-padrao">
+                <p id="meme-text"></p>
+                <img id="meme-image" src="" alt="Meme gerado">
+            </div>
+            <button id="fire">Borda Fire</button>
+            <button id="water">Borda Water</button>
+            <button id="earth">Borda Terra</button>
+        </section>
+        <section>
+            <div id="meme-image-miniature-container">
+                <h2>Imagens de meme pré-prontas(clique para selecionar)</h2>
+                <img id="meme-1" src="/imgs/meme1.png">
+                <img id="meme-2" src="/imgs/meme2.png">
+                <img id="meme-3" src="/imgs/meme3.png">
+                <img id="meme-4" src="/imgs/meme4.png">
+            </div>
+        </section>
+    </main>
 <script src="script.js"></script>
 </body>
 </html>
